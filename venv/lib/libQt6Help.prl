@@ -1,0 +1,5 @@
+QMAKE_PRL_TARGET = libQt6Help.dylib
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.9.1
+QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/libQt6Sql.6.9.1.dylib $$[QT_INSTALL_LIBS]/libQt6Widgets.6.9.1.dylib $$[QT_INSTALL_LIBS]/libQt6Gui.6.9.1.dylib $$[QT_INSTALL_LIBS]/libQt6Core.6.9.1.dylib -framework IOKit -framework DiskArbitration -framework UniformTypeIdentifiers -framework AGL -framework AppKit -framework OpenGL -framework ImageIO -framework Metal
+QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/libQt6Sql.6.9.1.dylib;$$[QT_INSTALL_LIBS]/libQt6Widgets.6.9.1.dylib;$$[QT_INSTALL_LIBS]/libQt6Gui.6.9.1.dylib;$$[QT_INSTALL_LIBS]/libQt6Core.6.9.1.dylib;-framework IOKit;-framework DiskArbitration;-framework UniformTypeIdentifiers;-framework AGL;-framework AppKit;-framework OpenGL;-framework ImageIO;-framework Metal
